@@ -27,7 +27,7 @@ app.use(
 );
 
 // Routes
-app.use("/api", authRoutes);
+app.use("/api", authRoutes); 
 app.use("/uploads", express.static("uploads"));
 
 // Server Start
